@@ -1,3 +1,11 @@
 .button {
   border: none;
 }
+
+.button:hover {
+  cursor: pointer;
+}
+
+.player__menu {
+  background-color: black;
+}
