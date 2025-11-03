@@ -41,7 +41,13 @@
             aria-hidden="true"></i>
         </button>
         <span class="js-current-time vp-player__timer-current"></span>
-        <div class="vp-player__blank"></div>
+        <div
+          class="js-progress vp-player__blank"
+          style="background-color: grey">
+          <div class="js-progress-slider" style="background-color: red">
+            Прогресс
+          </div>
+        </div>
         <span class="js-duration vp-player__timer-total"></span>
 
         <button class="js-fullscreen-button vp-player__menu-button">
@@ -49,12 +55,6 @@
         </button>
         <div></div>
       </div>
-
-      <!-- <div class="js-progress" style="background-color: grey">
-        <div class="js-progress-slider" style="background-color: red">
-          Прогресс
-        </div>
-      </div> -->
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
