@@ -51,7 +51,16 @@
 .vp-player__progress_bar__slider {
   align-self: center;
   height: 100%;
-  background-color: red;
+  background-color: #f8104d;
+}
+
+.vp-player__progress-bar__slider-dot {
+  height: 9px;
+  width: 9px;
+  background-color: #f8104d;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid white;
 }
 
 .vp-player__timer-current {
