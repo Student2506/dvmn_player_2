@@ -63,7 +63,14 @@
   display: block;
   border: 3px solid white;
   align-self: center;
-  margin-right: -6px;
+  margin-left: -6px;
+  opacity: 0;
+  transition: opacity ease-in-out 0.3s;
+}
+
+.vp-player__progress-bar:hover .vp-player__progress-bar__slider-dot {
+  opacity: 1;
+  transition: opacity ease-in-out 0.3s;
 }
 
 .vp-player__timer-current {

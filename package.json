@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "prettier": "^3.6.2",
     "stylelint": "^16.25.0"
   }
