@@ -11,6 +11,11 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <div id="player" class="vp-player" style="width: 800px; height: 600px">
@@ -35,18 +40,17 @@
             class="fa fa-volume-up vp-player__menu-icon"
             aria-hidden="true"></i>
         </button>
+        <span class="js-current-time vp-player__timer-current"></span>
         <div class="vp-player__blank"></div>
+        <span class="js-duration vp-player__timer-total"></span>
+
         <button class="js-fullscreen-button vp-player__menu-button">
           <i class="fa fa-expand vp-player__menu-icon" aria-hidden="true"></i>
         </button>
-      </div>
-      <!-- <div style="color: white">
-        <span class="js-current-time"></span>
-        —
-        <span class="js-duration"></span>
+        <div></div>
       </div>
 
-      <div class="js-progress" style="background-color: grey">
+      <!-- <div class="js-progress" style="background-color: grey">
         <div class="js-progress-slider" style="background-color: red">
           Прогресс
         </div>

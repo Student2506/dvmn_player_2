@@ -13,20 +13,32 @@
   flex-grow: 1;
   display: flex;
   flex-direction: row;
-  min-height: 36px;
+  min-height: 45px;
 }
 
 .vp-player__menu-button {
   border: none;
   color: white;
   background-color: transparent;
-  width: 26px;
-  margin: 5px;
+  width: 30px;
+  margin: 0;
   flex-grow: 1;
+  padding: 0;
+  font-size: 20px;
 }
 
 .vp-player__menu-button:hover {
   cursor: pointer;
+}
+
+.vp-player__menu .vp-player__menu-button:first-of-type {
+  margin-right: 8px;
+}
+
+
+
+.vp-player__menu .vp-player__menu-button:last-of-type {
+  margin-right: 6px;
 }
 
 .vp-player__menu-icon {
@@ -35,4 +47,24 @@
 
 .vp-player__blank {
   flex-grow: 999;
+}
+
+.vp-player__timer-current {
+  margin-left: 3px;
+}
+
+.vp-player__timer-total {
+  margin-right: 3px;
+}
+
+.vp-player__timer-current,
+.vp-player__timer-total {
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 16px;
+  margin-top: 11px;
 }
