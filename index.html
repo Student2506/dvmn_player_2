@@ -6,23 +6,41 @@
     <title>Плеер</title>
     <link rel="stylesheet" href="./fonts/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
-    <div id="player" style="width: 800px; height: 600px">
-      <div class="js-video-container" style="width: 100%; height: 100%"></div>
+    <div id="player" class="vp-player" style="width: 800px; height: 600px">
+      <div
+        class="js-video-container vp-player__screen"
+        style="width: 100%; height: 100%"></div>
 
-      <div class="player__menu">
-        <button class="js-play-button player__menu-button">
-          <i class="fa fa-play player__menu-icon" aria-hidden="true"></i>
+      <div class="vp-player__menu">
+        <button class="js-play-button vp-player__menu-button">
+          <i class="fa fa-play vp-player__menu-icon" aria-hidden="true"></i>
         </button>
-        <button class="js-pause-button player__menu-button" hidden>
-          <i class="fa fa-pause player__menu-icon" aria-hidden="true"></i>
+        <button class="js-pause-button vp-player__menu-button" hidden>
+          <i class="fa fa-pause vp-player__menu-icon" aria-hidden="true"></i>
         </button>
-        <button class="js-volume-button">Volume</button>
-        <button class="js-mute-button" hidden>Mute</button>
-        <button class="js-fullscreen-button">Fullscreen</button>
+        <button class="js-volume-button vp-player__menu-button">
+          <i
+            class="fa fa-volume-off vp-player__menu-icon"
+            aria-hidden="true"></i>
+        </button>
+        <button class="js-mute-button vp-player__menu-button" hidden>
+          <i
+            class="fa fa-volume-up vp-player__menu-icon"
+            aria-hidden="true"></i>
+        </button>
+        <div class="vp-player__blank"></div>
+        <button class="js-fullscreen-button vp-player__menu-button">
+          <i class="fa fa-expand vp-player__menu-icon" aria-hidden="true"></i>
+        </button>
       </div>
-      <div style="color: white">
+      <!-- <div style="color: white">
         <span class="js-current-time"></span>
         —
         <span class="js-duration"></span>
@@ -32,7 +50,7 @@
         <div class="js-progress-slider" style="background-color: red">
           Прогресс
         </div>
-      </div>
+      </div> -->
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

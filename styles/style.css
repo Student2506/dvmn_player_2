@@ -1,19 +1,38 @@
-.player__menu {
-  background-color: black;
+.vp-player {
+  box-shadow: 0 0 20px black;
+  display: flex;
+  flex-direction: column;
 }
 
-.player__menu-button {
+.vp-player__screen {
+  flex-grow: 999;
+}
+
+.vp-player__menu {
+  background-color: black;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  min-height: 36px;
+}
+
+.vp-player__menu-button {
   border: none;
   color: white;
   background-color: transparent;
-  height: 19px;
-  width: 24px;
+  width: 26px;
+  margin: 5px;
+  flex-grow: 1;
 }
 
-.player__menu-button:hover {
+.vp-player__menu-button:hover {
   cursor: pointer;
 }
 
-.player__menu-icon {
+.vp-player__menu-icon {
   margin: auto 0;
+}
+
+.vp-player__blank {
+  flex-grow: 999;
 }
