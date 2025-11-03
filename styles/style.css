@@ -63,6 +63,7 @@
   display: block;
   border: 3px solid white;
   align-self: center;
+  margin-right: -6px;
 }
 
 .vp-player__timer-current {
