@@ -46,6 +46,7 @@
   border-radius: 4px;
   align-self: center;
   margin: auto 10px;
+  display: flex;
 }
 
 .vp-player__progress_bar__slider {
@@ -55,12 +56,13 @@
 }
 
 .vp-player__progress-bar__slider-dot {
-  height: 9px;
-  width: 9px;
+  height: 8px;
+  width: 8px;
   background-color: #f8104d;
   border-radius: 50%;
-  display: inline-block;
+  display: block;
   border: 3px solid white;
+  align-self: center;
 }
 
 .vp-player__timer-current {
