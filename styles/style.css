@@ -1,13 +1,19 @@
-.button {
+.player__menu {
+  background-color: black;
+}
+
+.player__menu-button {
   border: none;
   color: white;
   background-color: transparent;
+  height: 19px;
+  width: 24px;
 }
 
-.button:hover {
+.player__menu-button:hover {
   cursor: pointer;
 }
 
-.player__menu {
-  background-color: black;
+.player__menu-icon {
+  margin: auto 0;
 }
