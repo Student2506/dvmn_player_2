@@ -49,8 +49,7 @@
   flex: 1 1 auto;
   align-items: center;
   justify-content: space-between;
-  column-gap: 8px;
-  margin: 0 -4px;
+  column-gap: 12px;
 }
 
 .vp-player__progress_bar__slider {
@@ -88,4 +87,5 @@
   font-variation-settings: "wdth" 100;
   font-size: 16px;
   flex: 0 0 auto;
+  margin: 0 -4px;
 }
