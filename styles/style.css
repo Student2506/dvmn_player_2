@@ -19,7 +19,7 @@
   flex-direction: row;
   min-height: 45px;
   column-gap: 8px;
-  padding-right: 4px;
+  padding: 0 2px;
 }
 
 .vp-player__menu-button {
@@ -33,10 +33,6 @@
 
 .vp-player__menu-button:hover {
   cursor: pointer;
-}
-
-.vp-player__menu-icon {
-  padding: auto 0;
 }
 
 .vp-player__progress-bar {
@@ -54,7 +50,7 @@
   align-items: center;
   justify-content: space-between;
   column-gap: 8px;
-  margin: 0 -2px;
+  margin: 0 -4px;
 }
 
 .vp-player__progress_bar__slider {
@@ -81,7 +77,6 @@
   opacity: 1;
   transition: opacity ease-in-out 0.3s;
 }
-
 
 .vp-player__timer-current,
 .vp-player__timer-total {
