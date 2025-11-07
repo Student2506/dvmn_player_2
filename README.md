@@ -6,3 +6,7 @@
 
 ## Цель проекта
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков dvmn.org.
+
+### Пример формата плеера
+![Starting player](player.png "base image")
+![Player with video](player_v1.png "base image")
