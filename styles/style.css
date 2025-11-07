@@ -18,6 +18,8 @@
   display: flex;
   flex-direction: row;
   min-height: 45px;
+  column-gap: 8px;
+  padding-right: 4px;
 }
 
 .vp-player__menu-button {
@@ -25,10 +27,8 @@
   color: white;
   background-color: transparent;
   width: 30px;
-  margin: 0;
-  flex-grow: 1;
-  padding: 0;
   font-size: 20px;
+  flex: 0 0 auto;
 }
 
 .vp-player__menu-button:hover {
@@ -40,19 +40,27 @@
 }
 
 .vp-player__progress-bar {
-  flex-grow: 999;
-  /* background-color: transparent; */
-  height: 4px;
-  border-radius: 4px;
+  height: 5px;
   align-self: center;
-  margin: auto 10px;
   display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+}
+
+.vp-player__progress_bar__bar {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 4px;
 }
 
 .vp-player__progress_bar__slider {
   align-self: center;
   height: 100%;
   background-color: #f8104d;
+  border-radius: 5px;
 }
 
 .vp-player__progress-bar__slider-dot {
@@ -73,13 +81,6 @@
   transition: opacity ease-in-out 0.3s;
 }
 
-.vp-player__timer-current {
-  margin-left: 3px;
-}
-
-.vp-player__timer-total {
-  margin-right: 3px;
-}
 
 .vp-player__timer-current,
 .vp-player__timer-total {
@@ -90,13 +91,5 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-size: 16px;
-  margin-top: 11px;
-}
-
-.margin-right-8px {
-  margin-right: 8px;
-}
-
-.margin-right-6px {
-  margin-right: 6px;
+  flex: 0 0 auto;
 }
