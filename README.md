@@ -10,3 +10,6 @@
 ### Пример формата плеера
 ![Starting player](player.png "base image")
 ![Player with video](player_v1.png "base image")
+
+### Пример как это выглядит на сайте
+[пример](https://student2506.github.io/dvmn_player_2/
