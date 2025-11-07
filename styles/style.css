@@ -36,7 +36,7 @@
 }
 
 .vp-player__menu-icon {
-  margin: auto 0;
+  padding: auto 0;
 }
 
 .vp-player__progress-bar {
@@ -53,7 +53,8 @@
   flex: 1 1 auto;
   align-items: center;
   justify-content: space-between;
-  column-gap: 4px;
+  column-gap: 8px;
+  margin: 0 -2px;
 }
 
 .vp-player__progress_bar__slider {
